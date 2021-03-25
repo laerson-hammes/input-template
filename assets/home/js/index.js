@@ -14,10 +14,8 @@ $(document).ready(() => {
          list_text = list_text.toLowerCase();
          input_value = input_value.toLowerCase();
          if (list_text.indexOf(input_value) > - 1) {
-            // console.log("sss");
             li[index].style.display = "block";
          } else {
-            // console.log("nnn");
             li[index].style.display = "none";
          }
       }
